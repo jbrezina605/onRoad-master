@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "580237808969",
+    "firebase_url": "https://onroad-14615.firebaseio.com",
+    "project_id": "onroad-14615",
+    "storage_bucket": "onroad-14615.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580237808969:android:84be37f677345922",
+        "android_client_info": {
+          "package_name": "com.bdp.onroad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580237808969-5p34oqjhv6r8667tr26rbahioo9fifnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQWbxatkOW1jOzUSsGFKz9SC8pGTbQ2Us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580237808969-5p34oqjhv6r8667tr26rbahioo9fifnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

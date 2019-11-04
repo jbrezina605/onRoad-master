@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/singleHikeInfoContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_gravity="start"
+        android:layout_margin="5dip"
+        android:padding="1dp"
+        android:text="Destination: "
+        android:textColor="@color/dark_green"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+            android:id="@+id/destinationOfHike"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Destination Goes Here"
+            android:textColor="@color/green"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_gravity="start"
+        android:layout_margin="5dip"
+        android:padding="1dp"
+        android:gravity="center_vertical"
+        android:text="Driver: "
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/driverNameOfHike"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Driver Name Goes Here"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_gravity="start"
+        android:layout_margin="5dip"
+        android:gravity="center_vertical"
+        android:padding="1dp"
+        android:text="Start Time: "
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/timeOfHike"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_gravity="start"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="time Goes here"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_gravity="start"
+        android:gravity="center_vertical"
+        android:layout_margin="5dip"
+        android:padding="1dp"
+        android:text="Number of Seats: "
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/numberOfSeatsOfHike"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_gravity="start"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Seat Number goes here"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_gravity="start"
+        android:layout_margin="5dip"
+        android:gravity="center_vertical"
+        android:padding="1dp"
+        android:text="Start Place: "
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/startingPlaceOfHike"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Place of starting goes here"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_gravity="start"
+        android:layout_margin="5dip"
+        android:gravity="center_vertical"
+        android:padding="1dp"
+        android:text="Contact No: "
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/contactNumberOfHike"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_gravity="start"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Driver Contact Number Goes Here"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

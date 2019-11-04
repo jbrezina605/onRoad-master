@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/singleHitchInfoContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/riderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Rider Name Goes Here"
+        android:textColor="@color/green"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/riderEmail"
+        android:layout_width="233dp"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="5dip"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Rider Email Goes Here"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/riderContactNumber"
+        android:layout_width="233dp"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="5dip"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Contact number of rider goes here."
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="15sp" />
+
+
+
+
+</LinearLayout>
