@@ -137,7 +137,8 @@ public class LoginActivity extends AppCompatActivity {
     private void showDialogueSignedUp()
     {
         Toast.makeText(this,"Signed in successfully",Toast.LENGTH_SHORT).show();
-        //koment 
+        //koment
+        //koment2
     }
 
 }
