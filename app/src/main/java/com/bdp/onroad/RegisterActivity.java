@@ -126,7 +126,7 @@ public class RegisterActivity extends AppCompatActivity
         }
     }
 
-    private boolean isEmailValid(String email)
+    public boolean isEmailValid(String email)
     {
 
         return email.contains("@") && (email.length()>1);
